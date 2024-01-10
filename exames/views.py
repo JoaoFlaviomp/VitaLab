@@ -126,5 +126,4 @@ def acesso_medico(request, token):
         return redirect('/usuarios/login')
     
     pedidos = PedidosExames.objects.filter(usuario = acesso_medico.usuario).filter(data__gte = acesso_medico.data_exames_iniciais).filter(data__lte = acesso_medico.data_exames_finais)
-    
     return render(request, 'acesso_medico.html', {"pedidos": pedidos})
