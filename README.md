@@ -15,7 +15,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 
 ```bash
 git clone https://github.com/JoaoFlaviomp/VitaLab.git
-cd sistema-gerenciamento-exames
+cd VitaLab.git
 ```
 
 2. Crie e ative um ambiente virtual (opcional, mas recomendado):
